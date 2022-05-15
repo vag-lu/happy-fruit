@@ -1,0 +1,16 @@
+.head {
+  display: flex;
+  height: 60px;
+  padding: 10px 50px;
+  background-color: #32a852;
+  box-shadow: 0px 10px 18px -12px rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icons {
+  font-size: 28px;
+  color: white;
+  display: flex;
+  gap: 20px;
+}

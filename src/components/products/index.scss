@@ -1,0 +1,11 @@
+.products {
+  display: grid;
+  margin: 0 20%;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+
+  @media (max-width: "700px") {
+    margin: 0 5%;
+    grid-template-columns: 1fr 1fr;
+  }
+}
