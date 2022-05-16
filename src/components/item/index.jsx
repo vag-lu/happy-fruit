@@ -40,7 +40,7 @@ function Item({ item }) {
             value={quantity}
             onChange={({ target }) => setQuantity(parseInt(target.value))}
           />
-          <button onClick={addToCartHandle}>
+          <button title="Adicionar ao carrinho" onClick={addToCartHandle}>
             <i className="fa-solid fa-cart-plus"></i>
           </button>
         </div>
