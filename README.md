@@ -14,3 +14,9 @@ Desenvolver um app, tipo e-commerce, utilizando React.JS para vender maçã, pê
 - O cliente poderá pesquisar pelo produto e escolher aquele que quer comprar;
 - Deve existir um carrinho de compras onde será listado os produtos que o cliente selecionou;
 - Deve possuir um botão checkout (gerar um pdf como se fosse um comprovante).
+
+
+## Usuários
+
+Usuário: user1
+Senha: pass1
