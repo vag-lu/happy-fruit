@@ -8,7 +8,7 @@ function NavBar() {
   const cart = useSelector((state) => state.shopCart.cart);
   return (
     <header className="head">
-      <Link to="/">
+      <Link to="/home">
         <Logo />
       </Link>
       <nav className="icons">

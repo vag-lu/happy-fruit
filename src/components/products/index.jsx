@@ -1,9 +1,8 @@
-import { products } from "../../utils/products.data";
 import Item from "../item";
 
 import "./index.scss";
 
-function Products() {
+function Products({ products }) {
   return (
     <div className="products">
       {products.map((item) => (

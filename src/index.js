@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import store from "./redux/store";
 import Home from "./pages/home";
 import Cart from "./pages/cart";
+import Login from "./pages/login";
 
 import "./index.css";
 
@@ -16,7 +17,8 @@ root.render(
     <Provider store={store}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Login />} />
+          <Route path="/home" element={<Home />} />
           <Route path="cart" element={<Cart />} />
         </Routes>
       </BrowserRouter>

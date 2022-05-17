@@ -17,7 +17,7 @@ function Cart() {
 
   return (
     <Layout>
-      <Link title="Retornar" className="back" to="/">
+      <Link title="Retornar" className="back" to="/home">
         <i className="fa-solid fa-arrow-left"></i>
       </Link>
       <h1>Carrinho de compras</h1>
