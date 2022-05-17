@@ -8,7 +8,6 @@ import "./index.scss";
 
 function Cart() {
   const cart = useSelector((state) => state.shopCart.cart);
-  console.log(cart);
   let total = cart.reduce(
     (accumulator, currentItem) =>
       accumulator + currentItem.quantity * currentItem.price,
